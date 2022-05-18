@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.fpdual.crescendo.controller.ChangepwdController">
+    <children>
+        <AnchorPane prefHeight="169.0" prefWidth="700.0">
+            <children>
+                <ImageView fitHeight="189.0" fitWidth="293.0" layoutX="214.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@/static/images/crescendo.png" />
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="178.0" layoutY="225.0" prefHeight="20.0" prefWidth="172.0" text="Usuario:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="178.0" layoutY="298.0" prefHeight="20.0" prefWidth="172.0" text="Nueva contraseña:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="username" layoutX="350.0" layoutY="222.0" prefHeight="25.0" prefWidth="172.0" />
+        <TextField fx:id="email" layoutX="350.0" layoutY="259.0" prefHeight="25.0" prefWidth="172.0" />
+        <PasswordField fx:id="password" layoutX="350.0" layoutY="296.0" prefHeight="25.0" prefWidth="172.0" />
+        <Button fx:id="Login" layoutX="285.0" layoutY="362.0" mnemonicParsing="false" onAction="#validateAndChange" text="Actualizar contraseña" />
+      <Label layoutX="178.0" layoutY="261.0" prefHeight="20.0" prefWidth="172.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+
+    </children>
+</AnchorPane>
