@@ -36,4 +36,9 @@ public class Switchers {
     public void switchToDeleteAccount() throws IOException {
         App.setRoot("DeleteAccount");
     }
+
+    @FXML
+    public void switchToFAQ() throws IOException {
+        App.setRoot("FAQ");
+    }
 }

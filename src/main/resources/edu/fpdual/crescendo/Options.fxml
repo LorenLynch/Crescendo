@@ -48,7 +48,8 @@
                </font>
             </Label>
             <Button fx:id="changepwd" layoutX="214.0" layoutY="167.0" mnemonicParsing="false" style="-fx-background-color: #ccccff;" onAction="#switchToChangepwd" text="Change password" />
-            <Button fx:id="faq" layoutX="250.0" layoutY="265.0" mnemonicParsing="false" style="-fx-background-color: #ccccff;" text="FAQ" />
+            <Button fx:id="faq" layoutX="250.0" layoutY="265.0" mnemonicParsing="false" style="-fx-background-color: #ccccff;" onAction="#switchToFAQ"
+                    text="FAQ" />
             <Button fx:id="delete" layoutX="221.0" layoutY="362.0" mnemonicParsing="false" style="-fx-background-color: #ccccff;" onAction="#switchToDeleteAccount" text="Delete account" />
             <Label layoutX="166.0" layoutY="144.0" text="Change your password at any moment" />
             <Label layoutX="197.0" layoutY="241.0" text="Frecuently asked questions" />

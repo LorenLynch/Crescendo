@@ -37,6 +37,7 @@
             <Font size="14.0" />
          </font>
       </Label>
+      <Button layoutX="324.0" layoutY="400.0" mnemonicParsing="false" onAction="#switchToOptions" text="Cancel" />
 
     </children>
 </AnchorPane>
